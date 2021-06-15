@@ -1,0 +1,62 @@
+@import url(reset.css);
+.header{
+  width:100%;
+  height: 150px;
+  background-color: #23296C ;
+    }
+    .first{
+      padding: 30px;
+      display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        align-items: stretch;
+        align-content:stretch;
+
+        }
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #23296C;
+  margin:45px;
+  padding:0 30px;
+}
+ol{
+    list-style: none;
+    font-size: 24px;
+    color: #23296C;
+    padding-left:24px;
+
+}
+ol > li{
+    padding-left:24px;
+    position: relative;
+    margin: 10px;
+}
+ol > li:before{
+    content: '';
+    position: absolute; top: 0; left: 0;
+    color: #23296C;;}
+    .cito{
+        width: 410px;
+        height: 109px;
+    }
+    .bino{
+      width: 78px;
+      height: 21px;
+      left: 20px;
+    }
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+.image{
+  width: 450px;
+  right: 0px;
+  bottom: 0px;
+}
